@@ -2,18 +2,30 @@ body {
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   color: black;
+  background-image: url("http://i.imgur.com/6EhAM7G.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100%, 100%;
+  text-decoration: none;
 }
 
 nav {
   margin: 0;
   margin-left: 7%;
-  padding: 0;
+  padding: 10px;
   top: 0;
   width: 200px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   overflow: auto;
+}
+
+.bottomnav {
+  bottom: 0px;
+  position:fixed;
+  padding: 10px;
 }
 
 ul {
@@ -29,11 +41,16 @@ li a {
 }
 
 li a:hover {
-    background-color: black;
+    /*background-color: black;*/
+    font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
 .mainContent {
   text-align: right;
+}
+
+i {
+  color: black;
 }
