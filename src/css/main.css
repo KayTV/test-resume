@@ -61,3 +61,40 @@ article {
   /*width: 90%;*/
   height: 500px;
 }
+
+.project-links {
+  font-size: 25px;
+  color: black;
+}
+
+.portfolio-item {
+  position: relative;
+  height: 200px;
+  width: 365px;
+}
+
+.primary {
+  position: absolute;
+  height: inherit;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+}
+
+.secondary {
+  height: inherit;
+  width: inherit;
+  background-color: grey;
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+  border-radius: 5px;
+  color: black;
+}
+
+.secondary:hover {
+  opacity: .9;
+  transition: 1s;
+}
