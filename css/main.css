@@ -99,3 +99,23 @@ article {
   opacity: .9;
   transition: 1s;
 }
+
+@media (min-width: 992px) {
+nav {
+    /*left: 6.5%;*/
+    /*width: 13%;*/
+    max-width: 205px;
+    min-width: 190px;
+  }
+}
+
+@media (min-width: 200px) {
+nav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+  }
+  article {
+    /*height: 1000px;*/
+  }
+}
