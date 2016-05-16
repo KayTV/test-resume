@@ -65,6 +65,10 @@ article {
   height: 500px;
 }
 
+#mobilebar {
+  display: none;
+}
+
 .project-links {
   font-size: 25px;
   color: black;
@@ -112,6 +116,7 @@ article {
     background-color: white;
     margin-left: 0;
     padding: 0;
+    z-index: 1;
   }
   .bottomnav {
     display: none;
@@ -136,7 +141,10 @@ article {
     height: auto;
     overflow: scroll;
   }
-  body {
-    background-size: auto;
+  #bar {
+    display: none;
+  }
+  #mobilebar {
+    display: block;
   }
 }
