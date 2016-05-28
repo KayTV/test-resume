@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
   top: 0;
   left: 0;
   text-decoration: none;
