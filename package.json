@@ -1,9 +1,9 @@
 {
-  "name": "update-me",
+  "name": "resume-app-kaytv",
   "version": "0.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "author": "",
+  "author": "Kaylyn Van Norstrand",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
