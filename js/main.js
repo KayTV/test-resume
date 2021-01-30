@@ -6,4 +6,9 @@ $(document).on('ready', function() {
     $('#new_poke').show();
     $('#poke_email').hide();
   })
+
+  $('#new_poke').on('click', function(){
+    $('#poke_email').show();
+    $('#new_poke').hide();
+  })
 });
