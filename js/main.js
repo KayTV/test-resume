@@ -1,5 +1,5 @@
 // add scripts
-$(document).on('ready', function() {
+$(document).ready(function() {
   console.log('sanity check!');
 
   $('#poke_email').on('click', function(){

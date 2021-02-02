@@ -104,6 +104,7 @@ article {
   transition: 1s;
   border-radius: 5px;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .secondary:hover {
@@ -111,8 +112,14 @@ article {
   transition: 1s;
 }
 
-.contactIcons i {
+.contactIcons a {
   color: black;
+}
+
+.projectIcons {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 25%;
 }
 
 @media only screen and (max-width: 1024px) {
