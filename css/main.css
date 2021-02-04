@@ -61,8 +61,12 @@ li a:hover {
   margin-left: 30%;
 }
 
-.icon {
+.iconNavColor {
   color: grey;
+}
+
+.iconLinkColor {
+  color: #333333;
 }
 
 article {
