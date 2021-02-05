@@ -29,7 +29,15 @@ body {
   bottom: 0px;
   position:fixed;
   padding: 7px;
-  /*padding-bottom: 10px;*/
+}
+
+.bottomnav div {
+  padding-bottom: 10px;
+}
+
+.bottomnav p {
+  font-size: 7.5px;
+  color: grey;
 }
 
 ul {
